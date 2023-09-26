@@ -61,8 +61,11 @@ def test_random_list():
     # TODO создайте список
     import random
     random.seed("key")
-    l = [random.randint(1,101), random.randint(1,101), random.randint(1,101), random.randint(1,101), random.randint(1,101), random.randint(1,101), random.randint(1,101), random.randint(1,101), random.randint(1,101), random.randint(1,101)]
+    l = []
+    for i in range (0,10):
+        l.append(random.randint(1,101))
     l.sort()
+
     # Проверяем результат
     assert len(l) == 10
     assert l[0] < l[-1]
