@@ -1,3 +1,3 @@
-# qa_guru_python_8_4
+# Homework for QA GURU Python lesson 4
 
 Primitive functions
